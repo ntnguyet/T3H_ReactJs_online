@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import './App.css';
 import Contacts from './component/Contacts';
 import { Header } from './component/Header';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Provider } from './Context';
 
 export default class App extends Component{
   constructor(props){
